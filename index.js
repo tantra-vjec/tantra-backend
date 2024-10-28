@@ -15,7 +15,7 @@ dotenv.config();
 app.use(cors());
 
 const PORT = process.env.PORT || 5000;
-const CONNECTION_URL = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.zevvmfz.mongodb.net/?retryWrites=true&w=majority`;
+const CONNECTION_URL = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.jptylxb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 app.use(express.json())
 
 app.use('/admin', adminRoutes);
