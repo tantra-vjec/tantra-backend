@@ -28,6 +28,12 @@ export const auth = async (req, res, next) => {
     case "csdresponses":
       role = "csdadmin";
       break;
+    case "csbsresponses":
+      role = "csbsadmin";
+      break;
+    case "cscyresponses":
+      role = "cscyadmin";
+      break;
     case "ashresponses":
       role = "ashadmin";
       break;
