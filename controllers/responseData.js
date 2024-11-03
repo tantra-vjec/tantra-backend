@@ -32,6 +32,12 @@ export const getResponses = async (req, res) => {
         case "csdresponses":
             dept = "csd";
             break;
+        case "csbsresponses":
+            dept = "csbs";
+            break;
+        case "cscyresponses":
+            dept = "cscy";
+            break;
         case "meresponses":
             dept = "me";
             break;
